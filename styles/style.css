@@ -1,0 +1,38 @@
+/* Cards */
+
+.card.custom-card {
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card.custom-card:hover {
+    transform: scale(1.05);
+}
+
+/* Titles */
+
+h1.main-title {
+    font-weight: 450;
+}
+
+/* Buttons */
+
+a.btn {
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Body */
+
+body {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+}
