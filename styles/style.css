@@ -9,7 +9,6 @@
     width: 100%;
     height: 100%;
     transition: transform 0.3s ease-in-out;
-    margin: 15px;
 }
 
 .card.custom-card:hover {
