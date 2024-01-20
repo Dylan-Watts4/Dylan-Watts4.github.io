@@ -6,7 +6,7 @@ fetch("https://api.github.com/users/Dylan-Watts4/repos")
         data.forEach(repo => {
             // Create column
             let col = document.createElement("div");
-            col.className = "col-12 col-sm-6 col-md-4";
+            col.className = "col-12 col-sm-6 col-md-4 custom-col";
 
             // Create card element
             let card = document.createElement("div");
