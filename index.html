@@ -12,7 +12,7 @@
     </head>
     <body>
         
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron">
 
             <div class="container" style="padding: 10px">
                 <h1 class="display-4">Dylan Watts</h1>
@@ -23,20 +23,12 @@
 
             <br>
 
-            <div class="container bg-3 text-center" id="repos">
-                <h3 class="col-4">Repos</h3>
-                <div class="row">
-                    <div class="col-4">
-                        <div class="list-group" style="width: auto" id="list-tab" role="tablist">
-                            <!-- List of <a> goes here -->
-                        </div>
-                    </div>
-                    <div class="col-8">
-                        <div class="tab-content" style="width: auto" id="nav-tabContent">
-                            <!-- List of <div> goes here -->
-                        </div>
+            <div class="container">
+                <h4 class="text-center mb-3">Latest GitHub Repositories</h4>
+                <div class="row" id="repo-cards">
+                    <!-- Add cards here -->
+                    <script src="scripts/get-repos.js"></script>
                 </div>
-                <script src = "scripts/get-repos.js"></script>
             </div>
 
         </div>
