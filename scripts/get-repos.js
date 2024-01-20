@@ -10,9 +10,7 @@ fetch("https://api.github.com/users/Dylan-Watts4/repos")
 
             // Create card element
             let card = document.createElement("div");
-            card.className = "card border-primary d-flex flex-column";
-            card.style.width = "100%";
-            card.style.height = "100%";
+            card.className = "card border-primary d-flex flex-column shadow custom-card";
 
             // Create card body element
             let cardBody = document.createElement("div");
