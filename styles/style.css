@@ -35,7 +35,9 @@ a.btn {
 :root {
     --text-color: rgb(211, 206, 206);
     --background-color: rgb(37, 39, 39);
+    --container-custom-bg: rgb(49, 51, 53);
     --card-bg-color: rgb(49, 51, 53);
+    --secondary: #6c757d;
 }
 
 body {
@@ -48,6 +50,17 @@ body {
 
 .footer {
     margin-top: auto;
+}
+
+/* Containers */
+
+.container.custom-container {
+    background-color: var(--container-custom-bg);
+    width: 40%;
+    height: 20%;
+    border-radius: 10px;
+    border: 1px solid var(--secondary);
+    margin-top: 10px;
 }
 
 /* Particles */
