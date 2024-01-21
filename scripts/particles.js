@@ -12,6 +12,9 @@ particlesJS('particles-js', {
         },
         size: {
             value: 1
+        },
+        move: {
+            speed: 1
         }
     }
 });

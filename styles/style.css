@@ -18,8 +18,13 @@
 
 /* Titles */
 
-h1.main-title {
+.main-title {
     font-weight: 450;
+}
+
+.sub-title {
+    font-weight: 400;
+    text-emphasis: bold;
 }
 
 /* Buttons */
@@ -63,6 +68,7 @@ body {
     height: auto;
     border: 1px solid var(--secondary);
     margin: 10px 15px;
+    padding: 10px 15px;
 }
 
 /* Particles */
@@ -72,4 +78,17 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+/* Canvases */
+
+#chart-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+#code-stats {
+    width: 100%;
+    height: 100%;
 }
