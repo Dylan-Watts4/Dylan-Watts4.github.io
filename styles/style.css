@@ -35,15 +35,17 @@ a.btn {
 :root {
     --text-color: rgb(211, 206, 206);
     --background-color: rgb(37, 39, 39);
-    --container-custom-bg: rgb(49, 51, 53);
-    --card-bg-color: rgb(49, 51, 53);
+    --container-custom-bg: rgba(49, 51, 53, 0.9);
+    --card-bg-color: rgba(49, 51, 53, 0.9);
     --secondary: #6c757d;
 }
 
 body {
     background-color: var(--background-color);
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     min-height: 100vh;
     color: var(--text-color);
 }
@@ -56,11 +58,11 @@ body {
 
 .container.custom-container {
     background-color: var(--container-custom-bg);
-    width: 40%;
-    height: 20%;
     border-radius: 10px;
+    width: auto;
+    height: auto;
     border: 1px solid var(--secondary);
-    margin-top: 10px;
+    margin: 10px 15px;
 }
 
 /* Particles */
