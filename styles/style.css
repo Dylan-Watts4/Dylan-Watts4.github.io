@@ -92,6 +92,6 @@ body {
 
 #code-stats {
     width: 100%;
-    height: 100%;
+    height: 250px;
     color: var(--text-color);
 }
