@@ -10,7 +10,7 @@ fetch("https://api.github.com/users/Dylan-Watts4/repos")
 
             // Create card element
             let card = document.createElement("div");
-            card.className = "card border-primary d-flex flex-column shadow custom-card";
+            card.className = "card border-secondary d-flex flex-column shadow custom-card";
 
             // Create card body element
             let cardBody = document.createElement("div");
@@ -30,10 +30,15 @@ fetch("https://api.github.com/users/Dylan-Watts4/repos")
             let cardFooter = document.createElement("div");
             cardFooter.className = "card-footer mt-auto";
             let cardButton = document.createElement("button");
-            cardButton.className = "btn btn-primary";
+            cardButton.className = "btn btn-dark btn-block";
             cardButton.innerText = "Go to Repo";
             cardButton.onclick = () => window.open(repo.html_url);
-            cardFooter.appendChild(cardButton);
+            // <a> instead of button
+            let cardLink = document.createElement("a");
+            cardLink.className = "btn btn-dark btn-block";
+            cardLink.innerText = "Go to Repo";
+            cardLink.href = repo.html_url;
+            cardFooter.appendChild(cardLink);
 
             // Append elements to card body
             cardBody.appendChild(cardTitle);
