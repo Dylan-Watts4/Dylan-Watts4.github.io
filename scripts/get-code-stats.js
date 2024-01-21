@@ -37,7 +37,7 @@ fetch("https://api.github.com/users/Dylan-Watts4/repos")
                 maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        position: 'bottom',
+                        position: 'right',
                         labels: {
                             color: 'rgb(211, 206, 206)'
                         }
