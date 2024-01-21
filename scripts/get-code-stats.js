@@ -33,9 +33,11 @@ fetch("https://api.github.com/users/Dylan-Watts4/repos")
                 }]
             },
             options: {
+                responsive: true,
+                maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        position: 'left',
+                        position: 'right',
                         labels: {
                             color: 'rgb(211, 206, 206)'
                         }
