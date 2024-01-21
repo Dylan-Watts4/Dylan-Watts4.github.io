@@ -35,7 +35,7 @@ fetch("https://api.github.com/users/Dylan-Watts4/repos")
             options: {
                 plugins: {
                     legend: {
-                        position: 'bottom',
+                        position: 'left',
                         labels: {
                             color: 'rgb(211, 206, 206)'
                         }
