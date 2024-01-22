@@ -63,6 +63,13 @@ body {
 
 /* Containers */
 
+.pfp {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
 .container.custom-container {
     background-color: var(--container-custom-bg);
     border-radius: 10px;
