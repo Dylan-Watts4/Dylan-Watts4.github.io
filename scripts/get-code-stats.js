@@ -12,6 +12,12 @@ fetch("https://api.github.com/users/Dylan-Watts4/repos")
                 allLanguages[language] = (allLanguages[language] || 0) + bytes;
             }
         });
+        // Convert bytes to percent
+        const totalBytes = Object.values(allLanguages).reduce((a, b) => a + b, 0);
+        for (const language in allLanguages) {
+            allLanguages[language] = (allLanguages[language] / totalBytes * 100).toFixed(2);
+        }
+        // Sort languages by percent
         languagesArray = Object.entries(allLanguages);
         languagesArray.sort((a, b) => b[1] - a[1]);
         const top5Languages = languagesArray.slice(0, 5);
